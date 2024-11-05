@@ -1,0 +1,146 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    background-color: rgba(157, 219, 216, 0.897);
+    text-align: center;
+}
+.heading{
+    color:hsla(0, 0%, 2%, 0.829) !important;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.main{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    margin: bottom 100px; 
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url();
+    
+
+}
+.personal{
+    color: hsl(0, 36%, 5%);
+    background-color: rgba(27, 109, 98, 0.397);
+    text-align: left;
+    padding: 10px;
+    font-size: x-large;
+
+}
+.forpic{
+    color: rgb(11, 93, 99);
+    text-align: left;
+    
+    
+
+}
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(191, 235, 231);
+    border-radius: 30px;
+    margin: 20px;
+
+}
+input[type="file"]::file.selector.button{
+    background-color: rgb(190, 185, 186);
+    cursor: pointer;
+    font-size: larger;
+    color: rgb(243, 243, 232);
+    border-color: rgb(238, 234, 243);
+    border: 10px;
+
+}
+form{
+    margin-bottom: 20px;
+
+}
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgba(165, 210, 218, 0.959);
+}
+
+ResumeOutput{
+    max-width: 800px;
+    margin: o auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid rgb(116, 237, 100);
+    color: rgb(44, 42, 165);
+    
+}
+
+h1{
+    background-color: hsla(184, 59%, 34%, 0.521);
+    color: rgba(0, 0, 0, 0.938);
+    text-align: 50px;
+
+}
+h2 ,p{
+    margin: 10px 0;   
+}
+h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: chocolate;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+img{
+    max-width: 150px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+@media(max-width: 600px){
+ /* Adusting padding and font size for smaller screen */
+body{
+    margin: 15px;
+    margin-bottom: 20px;
+
+}
+input,textArea{
+    font-size: 15px;
+    padding: 10px;
+    
+
+}
+h2{
+    font-size: 1.5px;
+}
+p{
+    font-size: 1px;
+}
+img{
+    max-width: 100px;
+}
+input[type="submit"]{
+    padding: auto;
+}
+ResumeOutput{
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -3px;
+
+}
+}
+
+
+
+
