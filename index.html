@@ -17,11 +17,14 @@
  <label for="name" class="inputname"><strong>Name:</strong></label>
  <input type="text" id="name" name="name" required > <br> <br>
 
- <label for="phone" class="inputname" id="phone"><strong>Phone No:</strong></label>
- <input type="tel" name="phone" id="phone" required> <br> <br>
+ <label for="fathername" class="inputname"><strong>Father Name:</strong></label>
+ <input type="text" id="father_name" name="father_name" required > <br> <br>
 
- <label for="email" class="inputname"id="email"><strong>Email:<strong</strong></label>
- <input type="tel" name="phone" id="phone no" required> <br><br>
+ <label for="phone" class="inputname"><strong>Phone No:</strong></label>
+ <input type="text" name="phone_number" id="phone_number"maxlength="11"placeholder="Enter your 11-digit phone number" required> <br> <br>
+
+ <label for="email" class="inputname"><strong>Email:<strong</strong></label>
+ <input type="email" name="email" id="email" required> <br><br>
 
  <label for="address" class="inputname"><strong>Resedence Address:</strong></label>
  <input type="text" name="Resedence address" id="Resedence address" required> <br><br>
@@ -45,17 +48,18 @@
  <div id="resumeOutput">
     <!--Resume will be generated below -->
     <h1 class="resumeinfo">Personal Information</h1>
-    <img id="displayPicture">
-    <h2 id="displayName"></h2>
-    <p id="displayPhone No"></p>
-    <p id="displayEmail"></p>
-    <p id="displayResedence Address"></p>
+    <img id="displaypicture">
+    <h2 id="displayname"></h2>
+    <p id="displayfather_name"></p>
+    <p id="displayphone_number"></p>
+    <p id="displayemail"></p>
+    <p id="displayResedence address"></p>
     <h1 class="resumeinformation">Education</h1>
-    <p id="displayEducation"></p>
+    <p id="displayeducation"></p>
     <h1 class="resumeinformation">Skills</h1>
-    <p id="displaySkills"></p>
+    <p id="displayskills"></p>
     <h1 class="resumeinformation">Work Experience</h1>
-    <p id="displayWork Experience"></p>
+    <p id="displayexperience"></p>
     
 </div>
 <script src="script.js"></script>

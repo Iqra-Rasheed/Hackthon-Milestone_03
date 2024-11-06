@@ -7,7 +7,7 @@ body{
 .heading{
     color:hsla(0, 0%, 2%, 0.829) !important;
     font-size: xx-large;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
     margin-bottom: 30px;
     
@@ -44,7 +44,7 @@ body{
 input[type="file"]{
     font-size: 16px;
     padding: 10px;
-    width: 250px;
+    width: 200px;
     background-color: rgb(191, 235, 231);
     border-radius: 30px;
     margin: 20px;
@@ -77,8 +77,8 @@ ResumeOutput{
     margin: o auto;
     padding: 20px;
     border-radius: 8px;
-    text-align: center;
-    border: 3px solid rgb(116, 237, 100);
+    text-align: left;
+    border: 3px solid rgb(107, 134, 184);
     color: rgb(44, 42, 165);
     
 }
@@ -90,14 +90,14 @@ h1{
 
 }
 h2 ,p{
-    margin: 10px 0;   
+    margin: 10px ;   
 }
 h2{
-    font-size: 35px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
-    color: chocolate;
+    color:hsla(180, 2%, 8%, 0.829) !important;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
